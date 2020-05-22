@@ -1,0 +1,54 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.navegacion {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+.navegacion a {
+  color: black;
+  padding: 10px;
+}
+.publicacion {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.posts {
+  width: 33%;
+  height: auto;
+}
+#comentarios {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 2rem;
+}
+#comentarios div {
+  width: 33%;
+  height: auto;
+}
+
+form {
+  width: 100%;
+  height: auto;
+}
+form textarea {
+  width: 40%;
+  height: auto;
+  margin-left: 15%;
+}
